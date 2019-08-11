@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DefuseBombs1"
+             x:Class="DefuseBombs1.MainPage">
+
+    <StackLayout>
+
+       
+
+        <Label Text="AVOID TRIGERRING THE BOMBS!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" 
+              TextColor="Black"
+               FontSize="25"/>
+            
+
+            <Button Text="1"
+	            VerticalOptions ="CenterAndExpand"
+	            HorizontalOptions ="Center"
+                Clicked="ButtonClicked"
+                    FontSize="Large"/>
+
+        <Button Text="2"
+	            VerticalOptions ="CenterAndExpand"
+	            HorizontalOptions ="Center"
+                Clicked="ButtonClicked" 
+                 FontSize="Large"/>
+
+        <Button Text="3"
+	            VerticalOptions ="CenterAndExpand"
+	            HorizontalOptions ="Center"
+                Clicked="ButtonClicked"
+                 FontSize="Large"/>
+
+        <Button Text="4"
+	            VerticalOptions ="CenterAndExpand"
+	            HorizontalOptions ="Center"
+                Clicked="ButtonClicked" 
+                 FontSize="Large"/>
+
+        <Button Text="5"
+	            VerticalOptions ="CenterAndExpand"
+	            HorizontalOptions ="Center"
+                Clicked="ButtonClicked" 
+                 FontSize="Large"/>
+        
+        <Label Text="Created By Ayodhya Siriwardena!" 
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+    </StackLayout>
+
+
+</ContentPage>
